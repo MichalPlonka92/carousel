@@ -1,0 +1,31 @@
+.carousel{
+    background-color: lightblue;
+}
+
+.carousel .carousel__slides {}
+.carousel .carousel__slide {}
+.carousel .carousel__nav {}
+
+.slide {
+    position:absolute;
+    width: 100%;
+}
+.slide:first-child{
+    background-color: lightcoral;
+
+}
+.slide:nth-child(2){
+    background-color: lightgreen;
+}
+.slide:last-child {
+    background-color: lightpink;
+}
+.slide .slode__hdl {}
+
+.slide .slide__text {}
+.slide .slide__link {}
+
+.nav {}
+.nav .nav__btn {}
+.nav .nav__btn.nav__btn--next {}
+
